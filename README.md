@@ -1,3 +1,4 @@
+```toml
 RUST_LOG="debug"
 [registries.crates-io]
 # protocol = "sparse"
@@ -34,3 +35,4 @@ opt-level = 3
 opt-level = 3
 [target.x86_64-unknown-linux-gnu]
 rustflags = ["-C", "link-arg=-B=mold"]
+```
