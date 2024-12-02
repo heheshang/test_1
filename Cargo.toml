@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-syn = "2.0.89"
+serde = "1.0.215"
+syn = "2.0.90"
 tokio = "1.41.1"

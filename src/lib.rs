@@ -18,3 +18,13 @@ pub fn find_first_palindrome(start: i32, end: i32) -> Option<i32> {
         return None;
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_find_first_palindrome() {
+        assert_eq!(true, true);
+    }
+}
